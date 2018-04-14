@@ -1,0 +1,17 @@
+<!Doctype html>
+<html>
+<head>
+    <title>Results of survey</title>
+</head>
+
+<body>
+    <h1>You have completed this survey {{request.session.counter}} times </h1>
+    
+    <h2>Submitted info:</h2>
+    {{request.session.name}}
+    {{request.session.comment}}
+    </form> <br/>
+   
+    <a href='/'>Go back</a>
+</body>
+</html>
